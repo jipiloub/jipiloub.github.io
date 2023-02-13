@@ -1,6 +1,6 @@
 {
-    "name": "bivouac_legal_flutter",
-    "short_name": "bivouac_legal_flutter",
+    "name": "test_web",
+    "short_name": "test_web",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
