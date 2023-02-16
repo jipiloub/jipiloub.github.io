@@ -4,10 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "a8a3600f618d8c26c3fc645bd6f49081",
-"index.html": "818b3c697d24f434965445faddfa1a3d",
-"/": "818b3c697d24f434965445faddfa1a3d",
-"main.dart.js": "45f022c7050b22a6c756290e87a9a9f0",
-"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
+"index.html": "e93413a64158ddb41cada80cbf1acfd6",
+"/": "e93413a64158ddb41cada80cbf1acfd6",
+"main.dart.js": "15590abb17989db9c277e860b9b105aa",
+"flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -16,11 +16,14 @@ const RESOURCES = {
 "manifest.json": "487430d67017ad36d0357e89370a7592",
 ".git/config": "c2e5140669d21d8074c289a1dd0c75f8",
 ".git/objects/61/f86ad5f687f1268db405c1e758025df97cf1f1": "011c20219097d7a01262c45459a824ff",
+".git/objects/61/28b6beebdc1399c8d12f96a159e23aaae2acd2": "2757301414c9b8d64dadce96c543075c",
 ".git/objects/95/c66ea35ea0b98baf0e0e034d3bdce00b965ce4": "ffde9bc0bd228c539d94a3d7aa844712",
 ".git/objects/3b/73b92f937cd5a5e5e4a7414b4ab80038231bc2": "e72cb85b2dfbef43a631ed1ca8186cc3",
 ".git/objects/03/e7fefabeb275c22cf061f38b1b50f3b3785197": "c0ce8f46afafe69c4242c30c9aefd7c7",
 ".git/objects/03/eaddffb9c0e55fb7b5f9b378d9134d8d75dd37": "87850ce0a3dd72f458581004b58ac0d6",
+".git/objects/3c/973953aeccc5d5c4717faf742890f2adffa645": "e3d39605bf8dd714b8721f8c257df129",
 ".git/objects/94/bdb2c867ef0a5629fa2e8ec6e69136768c85fc": "5bb86cbb65d83fd4cba272d56848fc66",
+".git/objects/d9/ecf638a04db262518fc6196b09998c18da8cf8": "4f68439996fbc1324beb0e441e6669a5",
 ".git/objects/df/67fdd249f9d1d576edda11abad0fdfd73b69b2": "5ca0f8fb66ce12d8c8d3b5f778a71431",
 ".git/objects/da/a82e54995421b583fb7ca67749573cb8326469": "3eff0bbb7060ad09cc361a3da221da13",
 ".git/objects/da/2e37f657d815c024595ad4d5dd70a5563b253c": "2f9f11e021f8abe77174c001dde8336c",
@@ -53,15 +56,18 @@ const RESOURCES = {
 ".git/objects/30/7a4538c10df42e9e58e149311240d48c665dcf": "e8445d0ceb2432309658ad8c1adf9c3d",
 ".git/objects/52/cfb77a424101413b81e246b965151f443a0e85": "453827b9337fef0116c048dee437d21d",
 ".git/objects/0f/d1a381266583aca39e0940d061c90793cad278": "0836ee4a7079e8a733346ca0c4092ff5",
+".git/objects/ba/1d39fbd88ad9bd309a427aa685f075aa739ab0": "7816a6e7d922fbc449b35ea1ea700f25",
 ".git/objects/a0/d32e0f55af045c709dccf587c605a3497200d2": "a55b7a950e0f28784516f875c8f65a6a",
 ".git/objects/b6/847af84668f859e670bc343cb1767c5f9fb9a1": "2b1c613b00e1262af4bd1c864593130b",
 ".git/objects/d5/a450c96a8fc3c50c86062a429ccd436b894599": "90a9c0605edad4e02aa3cc020336bc7b",
+".git/objects/aa/a406e0fb7e7d839fc8f4dc78a5e2e1fe99cc57": "c612a97a439cd353f753ef4e79ad2bd6",
 ".git/objects/aa/f9775aa89c03137dbf48721cdc05191703de5e": "25802b31f0bee36b4e1a7a67835f99f0",
 ".git/objects/b7/49bfef07473333cf1dd31e9eed89862a5d52aa": "36b4020dca303986cad10924774fb5dc",
 ".git/objects/a8/d322867e7cd76dfa77ed409c1e0e70310f3db4": "12c7042ed624a56d6a0ab3b6dcfddb51",
 ".git/objects/b9/2a0d854da9a8f73216c4a0ef07a0f0a44e4373": "f62d1eb7f51165e2a6d2ef1921f976f3",
 ".git/objects/a1/2ae12111bd9fb3b2e01c2c131c86ea2eecb8af": "77c8e18c3370dd6356f9024b3e7255ec",
 ".git/objects/e1/6ccb45089f381aedd61c8bbb92a2e4ef905b66": "257b0add3ec836b6d1f1c12cb8c120c3",
+".git/objects/cd/1f261ee6ab8ed1a8f0dd4c65b50b8a14068935": "d6d8a79bedfa658e7ab558f3a5e983f3",
 ".git/objects/e9/5d979a20be53d8c7859ff7292d377f971f51db": "f70a349616241641a99079234f8df5ee",
 ".git/objects/f1/3b51947e92ebf9aa5c22483decea6d14d3b5c0": "42fd1c9e5cb7e1292de54146f3cfde04",
 ".git/objects/e7/a3104b6bc81ab4e71f952c74a73f64f846f108": "27b4e242f1f130c022da8e0cdbb7213b",
@@ -75,15 +81,16 @@ const RESOURCES = {
 ".git/objects/4f/0df8bb9bfcfc1c3ff8fc73e3d2fc75b20d9f3f": "10ac62f7dc9299bf702455d00e67b17a",
 ".git/objects/1d/384f3748038966a5c7316223edf120dd5894dd": "a8d542276aa823dfefb8d26439e1077a",
 ".git/objects/71/84228710e7cee06078d3375f542c01fceda645": "ffbf37337739980aca516753f5369480",
+".git/objects/71/3da6c640283130ef7a92b6befa81e2e300f959": "ef12b0a9e5aa86a14456c4bf6d3e44c7",
 ".git/objects/71/94631ba95ddcc13b25d80fbfc0869de4d08f9c": "c3e3745c0414131c0774701745398203",
 ".git/objects/2e/d9c5ae254efff59f50786ad98c6d11013e284d": "1c23fa573db187384270006833d66adc",
 ".git/objects/7f/77511542306ada0833493d2c03e09f9e52f5f7": "474c6c7d176af7c2a32cf2ec06bab949",
 ".git/objects/8e/7f4b338840099949781ab85496d7a67fae46f1": "7f2803c236e9e7d95ef6ed16a3a2bd13",
 ".git/HEAD": "cf7dd3ce51958c5f13fece957cc417fb",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
-".git/logs/HEAD": "8648212cc16144815887ec15b4d37dbb",
-".git/logs/refs/heads/main": "8648212cc16144815887ec15b4d37dbb",
-".git/logs/refs/remotes/origin/main": "1f894693e78506494719f3efec73578d",
+".git/logs/HEAD": "ed96e40e31d52fa5580c1712e1aa9445",
+".git/logs/refs/heads/main": "ed96e40e31d52fa5580c1712e1aa9445",
+".git/logs/refs/remotes/origin/main": "a9ecdb969314cdfcc2d431d2dcf17b8e",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
 ".git/hooks/commit-msg.sample": "579a3c1e12a1e74a98169175fb913012",
 ".git/hooks/pre-rebase.sample": "56e45f2bcbc8226d2b4200f7c46371bf",
@@ -98,19 +105,21 @@ const RESOURCES = {
 ".git/hooks/pre-push.sample": "2c642152299a94e05ea26eae11993b13",
 ".git/hooks/update.sample": "647ae13c682f7827c22f5fc08a03674e",
 ".git/hooks/push-to-checkout.sample": "c7ab00c7784efeadad3ae9b228d4b4db",
-".git/refs/heads/main": "9e02423605d89f9d32b20f66e7e64bba",
-".git/refs/remotes/origin/main": "9e02423605d89f9d32b20f66e7e64bba",
-".git/index": "7267784a2b715fccfd0322884760b0c7",
-".git/COMMIT_EDITMSG": "296785f1ce9a0393566e0df7e3c6661c",
+".git/refs/heads/main": "d528fc7fd4595fe34d64331284239093",
+".git/refs/remotes/origin/main": "d528fc7fd4595fe34d64331284239093",
+".git/index": "e78520269c0fc39722d9465b3b0ba588",
+".git/COMMIT_EDITMSG": "4fe305d9ecba4c6f676386a96973feeb",
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
-"assets/NOTICES": "40a51ce3ace5fb9a21951e8fdc872822",
+"assets/NOTICES": "75095b9729c0a6085ae09f4dc33b123e",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/shaders/ink_sparkle.frag": "57f2f020e63be0dd85efafc7b7b25d80",
 "assets/AssetManifest.bin": "a3d922a0b0bb96200631d1d9f758ce7d",
-"assets/fonts/MaterialIcons-Regular.otf": "72cf12407bfd7598f0bbb44c38855f9d",
-"canvaskit/canvaskit.js": "1338eccfe817956d34753284f2b1cdf6",
-"canvaskit/canvaskit.wasm": "74601b2ba7dae595fa19f461ffb658c8"
+"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
+"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
+"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -152,8 +161,6 @@ self.addEventListener("activate", function(event) {
         await caches.delete(TEMP);
         // Save the manifest to make future upgrades efficient.
         await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
-        // Claim client to enable caching on first launch
-        self.clients.claim();
         return;
       }
       var oldManifest = await manifest.json();
@@ -179,8 +186,6 @@ self.addEventListener("activate", function(event) {
       await caches.delete(TEMP);
       // Save the manifest to make future upgrades efficient.
       await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
-      // Claim client to enable caching on first launch
-      self.clients.claim();
       return;
     } catch (err) {
       // On an unhandled exception the state of the cache cannot be guaranteed.
